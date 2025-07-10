@@ -81,12 +81,13 @@ streamlit run app.py
 
 ## 📊 Performance
 
-* The pipeline gives good OCR results on clear, front-facing license plates.
+* The pipeline gives good OCR results on images similar to the training conditions.
 * YOLOv8 was trained on a custom dataset captured in parking exit scenarios:
   - Top-down or slightly angled views from surveillance cameras
   - Vehicles exiting parking lots
   - Daylight conditions, moderate image resolution
   - Vietnamese-style license plates
+
 
 
 <p align="center">

@@ -1,8 +1,4 @@
-Dưới đây là toàn bộ nội dung `README.md` ở dạng **Markdown đầy đủ** bạn có thể copy dán vào file `README.md` trong repo GitHub:
 
----
-
-````markdown
 # 🚗 License Plate OCR with YOLOv8 + Tesseract
 
 This project detects and extracts **vehicle license plate numbers** from images using a two-stage pipeline:  
@@ -111,7 +107,6 @@ streamlit run app.py
 
 * **Name**: Do Tuan Minh
 * **Role**: AI student & developer of this pipeline and interface
-* **GitHub**: [github.com/your-username](https://github.com/your-username)
 
 ---
 
@@ -119,16 +114,5 @@ streamlit run app.py
 
 If you find this helpful, consider giving it a **⭐ Star** to support the work!
 
----
+.
 
-```
-
----
-
-👉 Bạn chỉ cần thay:
-- `github.com/your-username` bằng link GitHub của bạn.
-- `test_images/sample1.jpg` bằng ảnh thật trong thư mục ảnh của bạn.
-- `https://user-images.githubusercontent.com/placeholder/plate-demo.gif` bằng demo thật (nếu có GIF/ảnh).
-
-Nếu cần mình tạo **demo GIF đẹp**, mình có thể giúp bạn thêm phần đó luôn.
-```

@@ -90,7 +90,7 @@ streamlit run app.py
 
 
 <p align="center">
-  <img src="screenshot/data.jpg" width="500">
+  <img src="screenshot/data.JPG" width="500">
 </p>
 
 * For best results, input images should be similar in angle and clarity to the training data.

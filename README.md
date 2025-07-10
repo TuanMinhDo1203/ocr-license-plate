@@ -29,7 +29,7 @@ flowchart LR
     C --> D[Tesseract OCR]
     D --> E[Post-processing - Error Correction]
     E --> F[Display Final Text]
-
+```
 ---
 
 ## 📁 Project Structure

@@ -1,5 +1,5 @@
 
-# 🚗 License Plate OCR with YOLOv8 + Tesseract
+# 🚗 Vietnamese License Plate OCR with YOLOv8 + Tesseract
 
 This project detects and extracts **vehicle license plate numbers** from images using a two-stage pipeline:  
 🔹 **YOLOv8** for license plate detection  

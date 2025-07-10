@@ -34,7 +34,7 @@ if uploaded_file:
 
             with col2:
                 # Hiển thị biển số lớn, rõ ràng
-                plate_display = np.ones((100, 400, 3), dtype=np.uint8) * 255
+                plate_display = np.ones((100, 500, 3), dtype=np.uint8) * 255
                 cv2.putText(plate_display, text, (10, 65), cv2.FONT_HERSHEY_SIMPLEX,
                             2, (0, 0, 0), 4, cv2.LINE_AA)
                 st.image(plate_display, caption=f"🔍 Biển số #{i+1}: `{text}`", use_container_width=True)

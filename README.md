@@ -22,14 +22,13 @@ This project detects and extracts **vehicle license plate numbers** from images 
 
 ## 🔍 System Architecture
 
-
+```mermaid
 flowchart LR
     A[Input Image] --> B[YOLOv8 Detection]
     B --> C[Crop License Plate]
     C --> D[Tesseract OCR]
     D --> E[Post-processing (Error Correction)]
     E --> F[Display Final Text]
-
 
 ---
 

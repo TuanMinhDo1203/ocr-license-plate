@@ -81,13 +81,21 @@ streamlit run app.py
 
 ## 📊 Performance
 
-* OCR accuracy after post-processing: **\~90%+** on clear cropped plates.
-* Accuracy improvements by:
+* The pipeline gives good OCR results on clear, front-facing license plates.
+* YOLOv8 was trained on a custom dataset captured in parking exit scenarios:
+  - Top-down or slightly angled views from surveillance cameras
+  - Vehicles exiting parking lots
+  - Daylight conditions, moderate image resolution
+  - Vietnamese-style license plates
 
-  * Resizing and enhancing plate images.
-  * Using grayscale or binary thresholding.
-  * Post-processing to correct common OCR mistakes:
-    (`O ↔ 0`, `S ↔ 5`, `I ↔ 1`, `G ↔ 6`, etc.)
+
+<p align="center">
+  <img src="screenshot/data.jpg" width="500">
+</p>
+
+* For best results, input images should be similar in angle and clarity to the training data.
+* Common OCR mistakes (e.g., `0 ↔ O`, `5 ↔ S`) are handled by post-processing rules.
+
 
 ---
 

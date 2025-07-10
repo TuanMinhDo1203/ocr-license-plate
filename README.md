@@ -119,5 +119,5 @@ streamlit run app.py
 
 If you find this helpful, consider giving it a **⭐ Star** to support the work!
 
-.
+
 

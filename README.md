@@ -65,10 +65,7 @@ streamlit run app.py
 
 ## 🖼️ Example Results
 
-| Original Image               | OCR Result  |
-| ---------------------------- | ----------- |
-| ![](test_images/sample1.jpg) | `51G-47281` |
-| ![](test_images/sample2.jpg) | `29A-12345` |
+![App Screenshot](screenshot/Capture.JPG)
 
 ---
 
